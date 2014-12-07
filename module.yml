@@ -1,0 +1,7 @@
+# Similar to a plugin.yml, modules load from a module.yml and require certain things.
+# Your module must define a 'main' String pointing to the main class, which
+# 	MUST extend Module or children thereof.
+# The module must also define a name to be referenced by a Game object.
+
+main: me.capit.clustersample.SampleModule
+name: SampleModule
