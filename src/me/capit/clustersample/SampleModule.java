@@ -4,7 +4,8 @@ import org.bukkit.ChatColor;
 import org.clustermc.core.Module;
 
 public class SampleModule extends Module {
-	
+	private static final long serialVersionUID = -5753470165334316L;
+
 	/**
 	 * Calls when the module is loaded. Used to initialize data.
 	 */

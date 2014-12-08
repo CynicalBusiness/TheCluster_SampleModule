@@ -5,3 +5,6 @@
 
 main: me.capit.clustersample.SampleModule
 name: SampleModule
+
+# Additionally, you can depend on multiple Modules to force them to load first.
+#depend: ['SomeDatabaseModule', 'SomeGameModule']
